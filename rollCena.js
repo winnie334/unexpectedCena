@@ -9,12 +9,12 @@ $(document).ready(function() {
 itsJohnCena = function() {
   var vid = document.createElement("video");
   var source = document.createElement("source");
-  vid.width = $(window).width();
-  vid.height = $(window).height();
+  vid.width = 1280 // $(window).width();
+  vid.height = 720 // $(window).height();
   vid.autoplay = true; // Obviously
 
   // We tell the source object where to get the video from.
-  source.src = "bestVidEver.mp4";
+  source.src = "https://github.com/winnie334/unexpectedCena/raw/master/bestVidEver.mp4";
   source.type = "video/mp4";
 
   // We add the video source to the video object.
