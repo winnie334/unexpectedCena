@@ -26,5 +26,6 @@ itsJohnCena = function() {
   // We add the video source to the video object.
   vid.appendChild(source1);
   vid.appendChild(source2);
+  document.body.style.background = 'url(https://github.com/winnie334/unexpectedCena/raw/master/images/john-cena.png) right top'
   document.getElementsByTagName("body")[0].appendChild(vid);
 }
